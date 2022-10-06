@@ -42,9 +42,9 @@ try:
 except URLError as e:
   streamlit.error()
 
-streamlit.text(fruityvice_response)
+#streamlit.text(fruityvice_response)
 
-streamlit.dataframe(fruityvice_normalized)
+#streamlit.dataframe(fruityvice_normalized)
 #dont run anything while we troubleshot
 #streamlit.stop()
 
