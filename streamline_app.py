@@ -42,15 +42,6 @@ try:
 except URLError as e:
   streamlit.error()
 
-#streamlit.text(fruityvice_response)
-
-#streamlit.dataframe(fruityvice_normalized)
-#dont run anything while we troubleshot
-#streamlit.stop()
-
-#import snowflake.connector
-
-
 streamlit.header("The fruit load list contains:")
 def get_fruit_load_list():
     with my_cnx.cursor() as my_cur:
